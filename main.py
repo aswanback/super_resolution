@@ -28,6 +28,8 @@ if __name__ == "__main__":
     raw_train.save_to_disk(f'{base_folder}data/train')
     raw_test.save_to_disk(f'{base_folder}data/test')
 
+    print('done')
+
 
     # i = 0
     # state_dict = base_folder + f'weights{i}.pt'
