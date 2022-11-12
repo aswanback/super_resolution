@@ -7,6 +7,7 @@ import numpy as np
 
 
 def get_scale_from_dataset(dataset):
+    print(dataset[0])
     scale = None
     if len(dataset) > 0:
         lr = Image.open(dataset[0]['lr'])
